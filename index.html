@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Aventura Congelada</title>
+</head>
+<body>
+  <main>
+    <div class="passo ativo" id="passo-0">
+      <img src="img/biblioteca-cristal-azul.png" alt="Biblioteca congelada com cristais azuis">
+      <p>Em uma antiga biblioteca subterrânea, você encontra uma carta que fala sobre uma cidade escondida na Patagônia, envolta em auroras e segredos gelados.</p>
+      <button class="btn-proximo" data-proximo="1">Curitiba</button>
+      <button class="btn-proximo" data-proximo="2">Gramado</button>
+    </div>
+
+    <div class="passo" id="passo-1">
+      <img src="img/biblioteca-caverna.png" alt="Caverna iluminada misteriosa">
+      <p>Em Curitiba, no Jardim Botânico sob a luz azulada da lua, você encontra inscrições antigas indicando direção ao sul remoto.</p>
+      <button class="btn-proximo" data-proximo="7">Viajar à Patagônia</button>
+      <button class="btn-proximo" data-proximo="4">Desistir e voltar</button>
+    </div>
+
+    <div class="passo" id="passo-2">
+      <img src="img/biblioteca-cristais-roxos.png" alt="Cristais roxos brilhantes">
+      <p>No Lago Negro de Gramado, você encontra cristais roxos misteriosos que falam de uma passagem gelada rumo à Patagônia.</p>
+      <button class="btn-proximo" data-proximo="5">Seguir para Patagônia</button>
+      <button class="btn-proximo" data-proximo="6">Explorar montanhas nevadas</button>
+    </div>
+
+    <div class="passo" id="passo-4">
+      <img src="img/voltar-casa-neve.png" alt="Voltando para casa sob nevasca">
+      <p>Você decide que a jornada é arriscada e volta para casa, pensativo sobre o que poderia ter sido.</p>
+    </div>
+
+    <div class="passo" id="passo-5">
+      <p>Já decidido, você embarca rumo à Patagônia, sentindo a aura gelada do fim do mundo.</p>
+      <button class="btn-proximo" data-proximo="7">Continuar</button>
+    </div>
+
+    <div class="passo" id="passo-6">
+      <p>Ao escalar montanhas de gelo, você se perde em trilhas intermináveis e decide recuar.</p>
+      <button class="btn-proximo" data-proximo="2">Voltar a Gramado</button>
+    </div>
+
+    <div class="passo" id="passo-7">
+      <p>Na Patagônia, você encontra uma caverna de cristais gigantes e luz mística.</p>
+      <button class="btn-proximo" data-proximo="9">Explorar interior da caverna</button>
+      <button class="btn-proximo" data-proximo="10">Continuar pelos glaciares</button>
+    </div>
+
+    <div class="passo" id="passo-9">
+      <img src="img/cristal-grande-azul.png" alt="Cristal gigante brilhando">
+      <p>Você descobre um cristal gigantesco que revela passagens antigas para a cidade perdida.</p>
+      <button class="btn-proximo" data-proximo="11">Entrar na cidade</button>
+    </div>
+
+    <div class="passo" id="passo-10">
+      <p>Os glaciares se mostram traiçoeiros e sem pistas. Você decide retornar.</p>
+      <button class="btn-proximo" data-proximo="7">Voltar à caverna</button>
+    </div>
+
+    <div class="passo" id="passo-11">
+      <img src="img/cidade-perdida-gelo.png" alt="Cidade perdida congelada">
+      <p>Você finalmente adentra uma cidade perdida de cristal e gelo, decidindo protegê-la e estudá-la para sempre.</p>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
